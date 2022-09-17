@@ -1,0 +1,57 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% auto;
+    width: 50%;
+}
+
+.game_descr {
+    text-align: center;
+}
+
+.input_item {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.number_count {
+    text-align: left;
+    width: 65%;
+    margin-bottom: 10px;
+}
+
+.dinamic_element {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .check_number {
+    background-color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+
+.check_number:hover {
+    letter-spacing: 0.2em;
+} */
